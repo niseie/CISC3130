@@ -30,6 +30,7 @@ public class Homework2{
         printSearchResultsBinary(arr, 34);
 
     }
+    //Bubble Sort
     public static void bubbleSort(int[] arr){
         for(int i = 0; i < arr.length -1; i++){
             for(int j = 0; j < arr.length -1; j++){
@@ -45,6 +46,7 @@ public class Homework2{
             System.out.print(arr[i] + " ");
         }
     }
+    //Merge Sort
     public static void mergeSort(int[] arr){
         int length = arr.length;
         if(length <= 1) return;
@@ -99,6 +101,7 @@ public class Homework2{
             r++;
         }
     }
+    //Linear Search
     public static int linearSearch(int[] arr, int target){
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
@@ -115,6 +118,7 @@ public class Homework2{
             System.out.println("Searching for " + target + ": not found");
         }
     }
+    //Binary Search
     public static int binarySearch(int[] arr, int target) {
         int left = 0;
         int right = arr.length - 1;
