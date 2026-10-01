@@ -134,7 +134,7 @@ public class Homework2{
                 right = mid - 1; 
             }
         }
-        return -1; // Not found
+        return -1;
     }
     public static void printSearchResultsBinary(int[] arr, int target){
         int resultBinary = binarySearch(arr, target);
