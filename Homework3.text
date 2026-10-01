@@ -1,0 +1,62 @@
+Part 2
+1.  ADT stands for abstract data type.
+2.  ADT is a data structure that focuses on what the data does not how it does it.
+3.  ADT is a blueprint for what the data structure will do. the WHAT of the ADT specifies the behavior and it's operations. 
+The HOW the algorithm implements the details of the operations. 
+4.  Yes, two programmers can create different implementations of the same ADT by seperating the
+interface from the implementation. The interface defines what the behavior should do and the implementation 
+reflects in which the method is applied wether it's an array or a linked list, doesn't matter as long 
+as it has the same end result. Although some implementations have some better efficiency and trade offs.
+5.   Yes they're both still stacks because it's conducting the same behavior LIFO behavior,
+there is just different implementation to approaching the Stack.
+
+Part 8
+6.  LIFO means Last In First Out, which is the type of behavior the stack data structure 
+performs. The most recently added item is the first one to be removed.
+7.  55 was pushed to last, so it was on the top of the stack. A stack removed the top item first
+so 55 came out before 15, which was added first and it sits at the bottom.
+8.  pop() should remove D first because D was added last and is on top.
+9. A browsers back button is a stack. Each page you visit is pushed onto the history, and clicking 
+back pops the most recent page up, taking you to the page you were on before it. Undo in a text editor works
+the same way where the most recent action is reversed first.
+
+Part 14
+10. FIFO means First In First Out, which is the bahavior that the queue follows where the first
+item that was added to the stack is the first one removed. 
+11. 15 was enqueued before 55, so it was at the front of the queue. A queue removed from the front, so 15 came out first
+while the 55 was at the back and had to wait, this is similar to the example of standing in a line
+the first person to arrive is the first one served and to leave.
+12. Alex should leave first because he entered the line first.
+13. A printer is a good example for a queue, the first person to send the documents to be printed. If 3 sets of documents 
+get sent to the printer, the first document gets printed first and then the others follow up in turns, this way everything
+is fair and the job gets done in the order it arrives.
+
+Part 15
+Scenario 1 - Stack, undo should reverse the most recent action...(C, then B then A)
+Scenario 2 - Queue, The first document submitted should print first, which is first in, first out.
+Scenario 3 - Amazon should appear first, since it is the most recent page, this is similar to a stack because 
+the last page visited is the first one you go back to. 
+Scenario 4 - Queue, the customer who arrived first should be helped first which would be a first in first out situation.
+Scenario 5 - Stack, the last plate placed on top is the first one you take off which is last in first out.
+
+Part 16
+14. The stack is now 7,12. the push(22) makes iti 7,12,22.
+15. The final peek() return 22.
+
+
+16. dequeue() returns 7 which is the first value added. The queue is now 12, 18 then enqueue(22) makes it 12,18,22.
+17. The final peek() returns 12.
+
+Part 17 
+Feature                     Stack                   Queue
+Rule                        LIFO                    FIFO
+Add Operation               Push                    enqueue
+Remove Operation            pop                     dequeue
+View Next Item              peek (top value)        peek(front value)
+First Item Removed          most recently added     earliest added
+
+Part 18
+18. The ADT is the set of rules the array would have to follow for example push,pop,peek and isEmpty. 
+19. The implementation is the array and the code inside each method is what actually manipulates the values.
+20. No, the ADT did not change, the behavior are still the same and so is the stack. Only the implementation
+changes depending on what you'd like the do with the data that is given. The stack would not know the difference.
