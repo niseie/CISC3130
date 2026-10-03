@@ -1,3 +1,6 @@
+/*Yanalis Adames
+    Visual Studio Code
+    Java*/
 import java.util.ArrayList;
     // Stack 
     class Stack{
